@@ -52,18 +52,19 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-  }
+}
   
   header nav ul li a:hover {
     background: maroon;
     color: white;
     border-radius: 15px;
     text-shadow: none;
+}
 
- /* About me*/
-  }
-  .aboutme{
-    background-image: linear-gradient(maroon, white);
+ /* ABOUT ME*/
+
+.aboutme{
+    background-image: linear-gradient( maroon, white);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -71,78 +72,84 @@
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-  }
+}
 
-  .aboutme img {
+.aboutme img {
     border-radius: 50%;
     width: 400px;
     height: 400px;
     padding: 25px 35px;
-  }
-  .aboutme h2 {
-      color: white;
-      font-size: 25px;
-      text-align: center;
-  }
-  .aboutme p {
-      color: white;
-      font-size:18px;
-      text-align: center;
-      padding-bottom: 15px;
-  }
+}
+
+.aboutme h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10%;
+}
 
    /* PROJECTS */
+
    .projects {
        text-align: center;
        text-decoration-line: underline;
        padding-top: 10px;
        padding-bottom: 10px;
        font-size: 38px;
+       background-color: lightgrey;
+       border-bottom: maroon;
+       border-style: groove;
    }
 
   .flex-container {
     display: flex;
-    background-color: white;
+    background-color: lightgrey;
     flex-direction: column;
+    margin: 0, auto;
   }
 .runbuddy {
-    margin: 10px;
+    background-image: url(./Images/hero-bg.jpg);
+    margin: 50px;
     padding: 20px;
     font-size: 30px;
     color: white;
-    background-color: rgba(128, 0, 0, 0.603);
-
 }
+
 .robots {
-    background-color: rgba(128, 0, 0, 0.418);
-    margin: 10px;
+    background-image: url(./Images/robots.jfif);
+    margin: 50px;
     padding: 20px;
     font-size: 30px;
     color: white;
 }
 .Horiseon{
-    background-color: rgba(128, 0, 0, 0.247);
-margin: 10px;
-padding: 20px;
-font-size: 30px;
-color: white;
+    background-image: url(./Images/digital-marketing-meeting.jpg);
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
 }
 
    /* RESUME */
   .experience h2 {
       text-align: center;
-      color: maroon;
+      color: white;
       padding: 25px 35px;
       text-decoration-line: underline;
       font-size: 38px;
+      background-color: maroon;
   }
   .job { 
       position: relative; 
-      margin-bottom: 1em; 
+      margin-bottom: maroon; 
       padding-bottom: 1em; 
-      border-bottom: 1px solid;
+      border-bottom: 1px maroon;
       text-align: center;
-      background-color:white;
+      background-color:lightgray;
+      border-color: maroon;
+      border-style:double;
+    
+      
      }
     .job h3 {
         font-size: 28px;
