@@ -5,7 +5,7 @@
   }
   
   body {
-    color: navy;
+    color: maroon;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -33,7 +33,7 @@
   
   header a {
     text-decoration: none;
-    color: navy
+    color: maroon
   }
   
   header nav {
@@ -55,7 +55,7 @@
   }
   
   header nav ul li a:hover {
-    background: navy;
+    background: maroon;
     color: white;
     border-radius: 15px;
     text-shadow: none;
@@ -63,7 +63,7 @@
  /* About me*/
   }
   .aboutme{
-    background-image: linear-gradient(navy, white);
+    background-image: linear-gradient(maroon, white);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -88,34 +88,53 @@
       color: white;
       font-size:18px;
       text-align: center;
+      padding-bottom: 15px;
   }
 
    /* PROJECTS */
-
    .projects {
        text-align: center;
+       text-decoration-line: underline;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       font-size: 38px;
    }
-   .work {
+
+  .flex-container {
     display: flex;
-    background-color: white; 
-
-   }
-  .flex-container div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-
+    background-color: white;
+    flex-direction: column;
   }
+.runbuddy {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(128, 0, 0, 0.603);
+
+}
+.robots {
+    background-color: rgba(128, 0, 0, 0.418);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+.Horiseon{
+    background-color: rgba(128, 0, 0, 0.247);
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+color: white;
+}
 
    /* RESUME */
   .experience h2 {
       text-align: center;
-      color: navy;
+      color: maroon;
       padding: 25px 35px;
       text-decoration-line: underline;
+      font-size: 38px;
   }
   .job { 
       position: relative; 
@@ -127,7 +146,7 @@
      }
     .job h3 {
         font-size: 28px;
-        color: navy;    
+        color: maroon;    
     }
 
 
@@ -137,13 +156,16 @@
     text-decoration-line: underline;
     padding-bottom: 5%;
     padding-top: 5%;
-    background-color: navy;
-    color: white
+    background-color: maroon;
+    color: white;
   }
-    
+.contact h2 {
+    color: white;
+    font-size: 38px; 
+    padding-bottom: 10px; 
+}
   .info, a {
     text-align: center;
     color: white
-
-
 }
+
