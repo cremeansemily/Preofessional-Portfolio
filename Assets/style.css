@@ -1,1 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  header {
+    padding: 20px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-position: 80%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: navy
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+    list-style: none
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  
+  header nav ul li a:hover {
+    background: navy;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
 
+ /* About me*/
+  }
+  .aboutme{
+    background-image: linear-gradient(navy, white);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  .aboutme img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 25px 35px;
+  }
+  .aboutme h2 {
+      color: white;
+      font-size: 25px;
+      text-align: center;
+  }
+  .aboutme p {
+      color: white;
+      font-size:18px;
+      text-align: center;
+  }
+
+   /* PROJECTS */
+
+   .projects {
+       text-align: center;
+   }
+   .work {
+    display: flex;
+    background-color: white; 
+
+   }
+  .flex-container div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+  }
+
+   /* RESUME */
+  .experience h2 {
+      text-align: center;
+      color: navy;
+      padding: 25px 35px;
+      text-decoration-line: underline;
+  }
+  .job { 
+      position: relative; 
+      margin-bottom: 1em; 
+      padding-bottom: 1em; 
+      border-bottom: 1px solid;
+      text-align: center;
+      background-color:white;
+     }
+    .job h3 {
+        font-size: 28px;
+        color: navy;    
+    }
+
+
+ /* CONTACT ME */
+  .contact {
+    text-align: center;
+    text-decoration-line: underline;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: navy;
+    color: white
+  }
+    
+  .info, a {
+    text-align: center;
+    color: white
+
+
+}
