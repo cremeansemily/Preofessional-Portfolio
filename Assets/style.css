@@ -10,9 +10,9 @@
   }
   
   
-  /* HEADER / NAV BAR STYLES START */
+/* HEADER / NAV BAR STYLES START */
   
-  header {
+header {
     padding: 20px 35px;
     background-color: white;
     display: flex;
@@ -23,38 +23,38 @@
     top: 0;
     background-position: 80%;
     z-index: 9999;
-  }
+}
   
-  header h1 {
+header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-  }
+}
   
-  header a {
+header a {
     text-decoration: none;
     color: maroon
-  }
+}
   
-  header nav {
+header nav {
     margin: 7px 0;
-  }
+}
   
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items:flex-end;
     list-style: none
-  }
+}
   
-  header nav ul li a {
+header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
   
-  header nav ul li a:hover {
+header nav ul li a:hover {
     background: maroon;
     color: white;
     border-radius: 15px;
@@ -90,23 +90,32 @@
 
    /* PROJECTS */
 
-   .projects {
-       text-align: center;
-       text-decoration-line: underline;
-       padding-top: 10px;
-       padding-bottom: 10px;
-       font-size: 38px;
-       background-color: lightgrey;
-       border-bottom: maroon;
-       border-style: groove;
-   }
+.projects {
+    text-align: center;
+    text-decoration-line: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 38px;
+    background-color: lightgrey;
+    border-bottom: maroon;
+    border-style: groove;
+}
 
-  .flex-container {
+.flex-container {
     display: flex;
     background-color: lightgrey;
     flex-direction: column;
     margin: 0, auto;
-  }
+}
+
+.surfing {
+    background-color: lightskyblue;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
 .runbuddy {
     background-image: url(./Images/hero-bg.jpg);
     margin: 50px;
@@ -122,6 +131,7 @@
     font-size: 30px;
     color: white;
 }
+
 .Horiseon{
     background-image: url(./Images/digital-marketing-meeting.jpg);
     margin: 50px;
@@ -131,41 +141,39 @@
 }
 
    /* RESUME */
-  .experience h2 {
-      text-align: center;
-      color: white;
-      padding: 25px 35px;
-      text-decoration-line: underline;
-      font-size: 38px;
-      background-color: maroon;
-  }
-  .job { 
-      position: relative; 
-      margin-bottom: maroon; 
-      padding-bottom: 1em; 
-      border-bottom: 1px maroon;
-      text-align: center;
-      background-color:lightgray;
-      border-color: maroon;
-      border-style:double;
-    
-      
-     }
-    .job h3 {
-        font-size: 28px;
-        color: maroon;    
-    }
+.experience h2 {
+    text-align: center;
+    color: white;
+    padding: 25px 35px;
+    text-decoration-line: underline;
+    font-size: 38px;
+    background-color: maroon;
+}
+.job { 
+    position: relative; 
+    margin-bottom: maroon; 
+    padding-bottom: 1em; 
+    border-bottom: 1px maroon;
+    text-align: center;
+    background-color:lightgray;
+    border-color: maroon;
+    border-style:double;
+}
+.job h3 {
+    font-size: 28px;
+    color: maroon;    
+}
 
 
  /* CONTACT ME */
-  .contact {
+.contact {
     text-align: center;
     text-decoration-line: underline;
     padding-bottom: 5%;
     padding-top: 5%;
     background-color: maroon;
     color: white;
-  }
+}
 .contact h2 {
     color: white;
     font-size: 38px; 
