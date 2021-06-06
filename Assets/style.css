@@ -5,7 +5,7 @@
   }
   
   body {
-    color: maroon;
+    color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -33,7 +33,7 @@ header h1 {
   
 header a {
     text-decoration: none;
-    color: maroon
+    color: black
 }
   
 header nav {
@@ -55,7 +55,7 @@ header nav ul li a {
 }
   
 header nav ul li a:hover {
-    background: maroon;
+    background: white;
     color: white;
     border-radius: 15px;
     text-shadow: none;
@@ -64,7 +64,7 @@ header nav ul li a:hover {
  /* ABOUT ME*/
 
 .aboutme{
-    background-image: linear-gradient( maroon, white);
+    background-image: linear-gradient( white, maroon);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -96,16 +96,24 @@ header nav ul li a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 38px;
-    background-color: lightgrey;
-    border-bottom: maroon;
+    background-color: white;
+    border-bottom: black;
     border-style: groove;
 }
 
 .flex-container {
     display: flex;
-    background-color: lightgrey;
+    background-color: white;
     flex-direction: column;
     margin: 0, auto;
+}
+
+.puppy{
+    background-color: indigo;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
 }
 
 .surfing {
@@ -117,7 +125,7 @@ header nav ul li a:hover {
 }
 
 .runbuddy {
-    background-image: url(./Images/hero-bg.jpg);
+    background-color: lightgreen;
     margin: 50px;
     padding: 20px;
     font-size: 30px;
@@ -125,7 +133,7 @@ header nav ul li a:hover {
 }
 
 .robots {
-    background-image: url(./Images/robots.jfif);
+    background-color: orangered;
     margin: 50px;
     padding: 20px;
     font-size: 30px;
@@ -133,7 +141,7 @@ header nav ul li a:hover {
 }
 
 .Horiseon{
-    background-image: url(./Images/digital-marketing-meeting.jpg);
+    background-color: burlywood;
     margin: 50px;
     padding: 20px;
     font-size: 30px;
@@ -143,25 +151,25 @@ header nav ul li a:hover {
    /* RESUME */
 .experience h2 {
     text-align: center;
-    color: white;
+    color: black;
     padding: 25px 35px;
     text-decoration-line: underline;
     font-size: 38px;
-    background-color: maroon;
+    background-color: white;
 }
 .job { 
     position: relative; 
-    margin-bottom: maroon; 
+    margin-bottom:black; 
     padding-bottom: 1em; 
-    border-bottom: 1px maroon;
+    border-bottom: 1px black;
     text-align: center;
-    background-color:lightgray;
-    border-color: maroon;
+    background-color:white;
+    border-color: black;
     border-style:double;
 }
 .job h3 {
     font-size: 28px;
-    color: maroon;    
+    color: black;    
 }
 
 
@@ -171,16 +179,16 @@ header nav ul li a:hover {
     text-decoration-line: underline;
     padding-bottom: 5%;
     padding-top: 5%;
-    background-color: maroon;
-    color: white;
+    background-color:white;
+    color: black;
 }
 .contact h2 {
-    color: white;
+    color:black;
     font-size: 38px; 
     padding-bottom: 10px; 
 }
   .info, a {
     text-align: center;
-    color: white
+    color: black
 }
 
